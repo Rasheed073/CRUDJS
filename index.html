@@ -11,7 +11,7 @@
     <table>
     <tr>
         <td>
-            <form autocomplete="off" onsubmit="onFormSubmit()" >
+            <form autocomplete="off" onsubmit="event.preventDefault(); onFormSubmit()" >
                 <div>
                     <label for="productCode">Product Code</label>
                     <input type="text" name="productCode" id="productCode">
